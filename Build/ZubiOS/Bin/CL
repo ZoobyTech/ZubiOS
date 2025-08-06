@@ -1,0 +1,50 @@
+CL CLI!
+
+You probably got here from CL/Drivers!
+
+Admittedly, the GNU init will make an entire SystemD run in the background,
+and it probably has huge memory overhead.
+
+Just don't run apps with:
+
+CL GNU Start ./app
+
+To stop it, run:
+
+CL GNU Stop ./app
+
+It will try forcing systemd to shut down, or just kill it.
+
+This system is in alpha, super dangerous, you'll die.
+
+How it works!
+
+the Driver is either Usermode or Kernel, depends on the progress.
+ALL drivers will start out in usermode before being forked to run as kernel when the concept is proven.
+
+GNU howev er is just a fake root so that will never be a root level driver.
+
+commands:
+
+AD CL <CompatibilityLayer> 
+-> Start -> Takes one argument, passes the rest as a string after running said app.
+-> Stop -> Takes one argument, stops all instances of the program. This is useless I think?
+-> Startup -> Starts the SystemD process.
+-> Shutdown -> Kills the entire compatibility layer. (tries calling systemd shutdown, or the specific CL's shutdown, may not work, usually doesn't)
+-> Kill -> Calls -9 on all CL processes to kill it.
+-> Update -> Tries to update the CL, this uses the driver. If there is no builtin update method, you have to update INSIDE of the CL!
+-> Freeze -> Freezes all CL apps at once, useful for debugging.
+-> Uninstal -> Deletes the entire compatibility layer from your system.
+-> Install  -> Searches ZoobyTech's API backend for binary packages, then it installs the driver & Compatibility layer.
+
+AD means Administrator Do!
+You need AD to run most of these services, as they effect all users!
+(Permissions are contiguous, Root owns the services, you are only given a home directory in either /Home/YourName or the windows alternative. Mac doesn't exist.)
+
+If you want a compatibility layer to run as a permanent subsystem, you can do
+
+AD settings startup append "CL Startup"
+Yes, it is a shell, Sorry! I will make this entirely binary-ooriented later for faster boot times.
+
+Though I personally boot in 3ms, so it's not that tempting right now...
+Haha!

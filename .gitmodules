@@ -1,0 +1,21 @@
+[submodule "src/ZubiLinux"]
+	path = src/ZubiLinux
+	url = https://github.com/ZoobyTech/ZubiLinux
+[submodule "Source/zstdlib"]
+	path = Source/zstdlib
+	url = https://github.com/ZoobyTech/zstdlib
+[submodule "Source/z.so"]
+	path = Source/z.so
+	url = https://github.com/ZoobyTech/z.so
+[submodule "Source/Source/ZTT"]
+	path = Source/Source/ZTT
+	url = https://github.com/ZoobyTech/ZTT
+[submodule "Source/ZTT"]
+	path = Source/ZTT
+	url = https://github.com/ZoobyTech/ZTT
+[submodule "Source/ZubiLinux"]
+	path = Source/ZubiLinux
+	url = https://github.com/ZoobyTech/ZubiLinux
+[submodule "Source/ZPKG"]
+	path = Source/ZPKG
+	url = https://github.com/ZoobyTech/ZoobyPKG

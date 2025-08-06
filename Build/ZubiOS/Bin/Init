@@ -1,0 +1,28 @@
+INIT File!
+
+This is super basic right now... Sorry!
+
+All it does is load the linker & loads the Standard Library & then calls ZSH...
+If you exit ZSH, your entire kernel panics...
+AGain!
+Sorry!!
+
+Feel free to make a custom init script, you can even use "zsh" as the init if you want but that'd be pretty weird.
+
+What it does:
+
+Calls ld.so once (to make sure it's daemon is running... yes, the bloody daemon is a runtime service... I don't know how GNU does what it does, so I improvised! Good thing is, all virtual memory is actually in its own memory space, so you can look at it to see how much memory shared libraries are using.)
+Calls /Bin/ZSH, falls back to...
+Kernel panic!
+Booyah!!
+
+I'll make a recovery mode later, sorry I'm just slow.
+
+FYI, /Bin/ZSH Doesn't even work yet on this Distro so...
+You can't even use it!
+
+Don't use this distro yet :heart:
+Unless you'd like to contribute.
+I am open to making the init Open Source if someone manages to make one better than my proprietary one.
+Of which, if they push it, I'll reluctantly accept it since I suppose...
+An INIT should be open source, for security & user freedom.
