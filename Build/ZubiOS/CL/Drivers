@@ -1,0 +1,18 @@
+This will be a binary mock-up file for which driver should be responsible for each files runtime.
+This will involve a wine-like system,
+But instead it's entirely kernel-sided.
+
+Will this break many, many windows apps that expect specific Windows-related quirks?
+Yes ABSOLUTELY.
+
+Is it a more modern approach?
+Probably?
+
+This hasn't even begun yet.
+
+This will also allow you to run MacOS & GNU-style apps in the future via sandboxxing.
+The driver for GNU will just be a namespace.
+
+Of course, this, you can't interact with.
+
+Check out /ZubiOS/Bin/CL!
