@@ -1,0 +1,17 @@
+Administrator DO!
+
+ZoobyTech's proprietary administrator DO! System.
+It's like Sudo, but probably more secure with a smaller attack surface.
+
+To make yourself admin, you'll have to clone the Administrator user's UD file to your own overwriting your settings, (sorry!)
+
+Then you can call:
+
+AD settings admin
+ Administrator // (0) Unrestricted AD use, ID 0...
+ Secure        // (1) Removes user-mode path in AD environment when called. This is recommended! User binaries should never be ran as admin.
+ Access        // (2) Your permission level, lets you tinker with users home environments if you outrank them. If they outrank you, you cannot touch their home environment. (If you do 255, you can touch root, Root's permission level is 254)
+ 
+ // I intend to add fine-tuned security features later! Such as specific perms, i.e. DRM access.
+ 
+

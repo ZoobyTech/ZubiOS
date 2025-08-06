@@ -1,0 +1,50 @@
+Zynapse!
+Proprietary ZoobyTech Desktop Environment!
+
+Can look like Hyprland, or even Plasma 6.
+
+Proprietary for now, may make it public eventually under FSF if I get bored.
+Of course, I'm pretty sure Richard Stallman would slap me to death for how little freedom I give users...
+But I plan to be transparent about this!
+
+This Binary does have Telemetry!
+It doesn't work though since my api backend is constantly down~
+
+It might not even have Telemetry anymore, but assume it does I generally forgot.
+
+What this app does:
+ Takes a few config entries in /Users/YourName/UD!
+ These entries include the following...
+
+ Zynapse:
+  WM Type: // 0
+   Tiling,
+   Windows Style
+  Animations: // 1
+   There's several options, ignore them, not done.
+  GL: // 2
+   Only zstdlib Rasterizer for now, I intend to add Vulkan later, or ZubiTech's WIP Graphics Library that i'll never finish. This setting does NOTHING!
+  Desktop Entries: // 3
+   Y/N, enables putting stuff on your desktop to render.
+  FPS:
+   int8 Type --> Type means it'll stop rendering new frames if you aren't doing anything. This is experimental, works on 1, at option 0 it's constantly rendering new frames.
+   
+To change settings, just do:
+
+AD settings Zynapse 0 2 // Zynapse is string resolved... so bad I know, it's just d ynamically added to UD, all other settings are int based.
+
+To set it from tiling, to windows-style (this enables a bottom-bar automatically, not customizable yet)
+AD means Administrator do.
+Make sure your UD file considers you an ADMIN!
+(UID 0 is called Administrator in the file, to make yourself admin, login as Administrator, & drag it's UD file to yours, this will overwrite all existing settings, so do this when you first st artup! Settings has NO way to override other user settings, yet anyway)
+
+Yes, you need Administrator to change your settings, security vulnerability:
+If your /User/YourName/Bin has an settings file in it, IT WILL OVERRIDE system-wide settings manager!
+BE CAREFUL.
+
+--> 
+You need admin to install stuff into your personal bin folder anyway so...
+You're probably chill. For security reasons I'll add a settings configuration that lets you choose between:
+ZubiOS Bin priority.
+This way ZubiOS names cannot be overwritten, improving security at the sacrifice of user freedom.
+
