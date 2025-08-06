@@ -1,0 +1,144 @@
+# Zooby Public License v1.0 (ZPL-1.0)
+
+Copyright (c) 2025 ZoobyTech
+
+Preamble  
+ZoobyTech believes in transparent source-code visibility while retaining sovereign stewardship over downstream use, modification, and redistribution. This Zooby Public License (“ZPL”) grants you access to, and limited rights in, the publicly-available portions of the Zooby Userland source code (the “Software”). All contributions and modifications must adhere to the defined Contribution Process and be submitted back to the ZoobyTech main repository for review. Unauthorized forks, derivative works, or redistribution contrary to these terms are prohibited.
+
+---
+
+## 1. Definitions
+
+- **“Software”**  
+  The publicly-available source code distributed under this license, including source files, scripts, documentation, and examples.
+
+- **“Contributor”**  
+  Any individual or entity that submits Contributions to the Software.
+
+- **“Contribution”**  
+  Any original work of authorship, including modifications, patches, bug fixes, improvements, documentation, or other materials submitted to ZoobyTech for inclusion in the Software.
+
+- **“Repository”**  
+  The official ZoobyTech GitHub organization and associated version control systems hosting the Software.
+
+- **“Fork”**  
+  Any copy, clone, or derivative of the Software hosted outside of the official Repository, or any public redistribution not expressly authorized by ZoobyTech.
+
+- **“Proprietary Modules”**  
+  Portions of the userland code not included in this public release, which remain the exclusive property and trade secrets of ZoobyTech.
+
+---
+
+## 2. Grant of License
+
+1. **Source-Code Visibility**  
+   ZoobyTech hereby grants you a worldwide, royalty-free, non-exclusive license to view, download, compile, and execute the Software for personal, educational, or internal evaluation purposes.
+
+2. **Personal and Educational Use**  
+   You may modify the Software solely for your own personal, non-commercial, or educational use, provided that any such modifications remain private and are not redistributed or publicly hosted outside the Contribution Process.
+
+3. **Contribution License**  
+   By submitting any Contribution to the Software, you grant ZoobyTech a perpetual, irrevocable, worldwide, royalty-free, transferable license to use, reproduce, modify, distribute, and sublicense your Contribution as part of the Software or other ZoobyTech projects.
+
+---
+
+## 3. Restrictions
+
+1. **No Unauthorized Redistribution**  
+   You may not publicly redistribute, publish, mirror, or host the Software or any derivative works or forks except as expressly permitted by ZoobyTech.
+
+2. **No External Forks**  
+   Public forks, clones, or derivative repositories outside the ZoobyTech organization are not permitted. All modifications must be contributed back to the official Repository via pull request.
+
+3. **No Commercial Exploitation**  
+   The Software is not licensed for commercial redistribution, sale, or re-licensing without explicit prior written permission from ZoobyTech.
+
+4. **No Disallowed Use**  
+   You may not use the Software, or any derivative, for any illegal, immoral, or unethical purpose, including but not limited to reverse-engineering, weapons development, or human rights abuses.
+
+---
+
+## 4. Contribution Process
+
+1. **Submission via Pull Request**  
+   All Contributions must be submitted as pull requests (PRs) to the official ZoobyTech Repository on GitHub.
+
+2. **Review and Approval**  
+   ZoobyTech reserves the exclusive right to review, accept, reject, or request changes to any Contribution at its sole discretion, based on code quality, security implications, alignment with project goals, or other considerations.
+
+3. **Contributor Representations**  
+   By submitting a Contribution, you represent and warrant that:
+   - You have the right to license the Contribution under ZPL-1.0.
+   - The Contribution is your original work or you have obtained all necessary rights to submit it.
+   - The Contribution does not infringe any third-party intellectual property rights.
+
+4. **Final Authority**  
+   ZoobyTech’s decision on whether to merge or reject any Contribution is final and not subject to dispute resolution under this license.
+
+---
+
+## 5. Patents and Trademarks
+
+1. **Patent Grant**  
+   Contributors grant ZoobyTech and recipients of the Software a perpetual, worldwide, non-exclusive, royalty-free license to any patent claims necessarily infringed by their Contributions.
+
+2. **No Other Patent Rights**  
+   Except for the contribution-specific grant above, no other patent licenses are conveyed by this license.
+
+3. **Trademarks**  
+   “Zooby,” “ZubiOS,” “ZoobyTech,” and related logos and marks are trademarks or registered trademarks of ZoobyTech. Use of these trademarks requires separate written permission from ZoobyTech.
+
+---
+
+## 6. Redistribution of Source
+
+Redistribution of the Software’s source code is not permitted in any form, except:
+
+- As part of an approved ZoobyTech release.
+- Via the official ZoobyTech Repository.
+- In private forks for personal or evaluation use that are never publicly accessible.
+
+Redistributions in binary or compiled form are expressly prohibited.
+
+---
+
+## 7. Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. YOU ASSUME ALL RISK FOR QUALITY, USE, AND PERFORMANCE OF THE SOFTWARE.
+
+---
+
+## 8. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ZOOBYTECH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING FROM USE OF OR INABILITY TO USE THE SOFTWARE, INCLUDING LOSS OF DATA OR PROFITS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+---
+
+## 9. Termination
+
+1. **Termination for Breach**  
+   ZoobyTech may terminate this license immediately if you breach any term or condition. Upon termination, you must destroy all copies of the Software in your possession.
+
+2. **Survival**  
+   Sections 5 (Patents and Trademarks), 7 (Warranty Disclaimer), 8 (Limitation of Liability), and 9 (Termination) survive termination of this license.
+
+---
+
+## 10. Governing Law and Dispute Resolution
+
+This license shall be governed by and construed in accordance with the laws of the State of Oregon, United States, without regard to conflict-of-law principles. Any dispute arising under this license shall be resolved exclusively in the federal or state courts located in Multnomah County, Oregon.
+
+---
+
+## 11. Complete Agreement
+
+This ZPL-1.0 constitutes the entire agreement between you and ZoobyTech regarding the Software and supersedes all prior or contemporaneous communications, proposals, or understandings, whether oral or written.
+
+---
+
+For legal inquiries or support, please contact:  
+**Legal at Zooby.Tech**  
+Email: legal@zooby.tech  
+---
+
+_End of Zooby Public License v1.0_
